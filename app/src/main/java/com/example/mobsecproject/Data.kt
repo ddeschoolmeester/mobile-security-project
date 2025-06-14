@@ -61,7 +61,7 @@ class DBHandler  // creating a constructor for our database handler.
         private const val DB_NAME = "songdb"
 
         // below int is our database version
-        private const val DB_VERSION = 2
+        private const val DB_VERSION = 3
 
         // below variable is for our table name.
         private const val TABLE_NAME = "songs"

@@ -19,7 +19,7 @@ import org.json.JSONObject
 
 @Composable
 fun LyricsScreen(modifier: Modifier = Modifier, navController: NavController, artist:String = "Rick Astley", title: String = "Never Gonna Give You Up"){
-    var lyrics by remember { mutableStateOf<String>(R.string.rickroll.toString())}
+    var lyrics by remember { mutableStateOf<String>(R.string.APIwaiting.toString())}
     val scope = rememberCoroutineScope()
 
     LaunchedEffect(Unit) {
